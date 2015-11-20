@@ -1,0 +1,5 @@
+#!/bin/sh
+source "radio.conf"
+streamripper ${RADIO_RECORDINGS_URL} -d ${RADIO_RECORDINGS_PATH} -l ${RADIO_RECORDING_DURATION} -D ${RADIO_RECORDING_FOLDER_FORMAT} --quiet
+# delete old files
+find "${RADIO_RECORDINGS_PATH}/${RADIO_STATION_NAME}/" -maxdepth 1 -type d -mtime +${RADIO_KEEP_OLD_RECORDINGs_DAYS} -exec rm -rf "{}" \;

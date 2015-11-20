@@ -1,0 +1,6 @@
+export RADIO_STATION_URL="http://station:1234/"
+export RADIO_STATION_NAME="Name of the Radiostation"
+export RADIO_RECORDINGS_PATH="/home/USERNAME/path/to/recordings"
+export RADIO_RECORDING_DURATION="4800" # in seconds
+export RADIO_RECORDING_FOLDER_FORMAT="%S/%d"
+export RADIO_KEEP_OLD_RECORDINGs_DAYS="4" # how long do you want to keep your recordings (days)?
