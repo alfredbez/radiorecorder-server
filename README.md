@@ -15,7 +15,6 @@ aus diesem [Gist](https://gist.github.com/samatjain/4dda24e14a5b73481e2a)
 ```
 sudo apt-get update
 sudo apt-get dist-upgrade
-sudo apt-get pi-upgrade #@TODO nachsehen
 ```
 
 # folgende Pakete installieren
